@@ -1,0 +1,125 @@
+using System;
+
+namespace ConsoleApp20
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int box1, box2, box3, no_buc, remo_box;
+            Console.Write("Input box in bucket 1 : ");
+            box1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input box in bucket 2:");
+            box2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Input box in bucket 3:");
+            box3 = int.Parse(Console.ReadLine());
+
+            do
+            {
+                Console.WriteLine("A player round");
+                Console.WriteLine("bucket1 = {0},");
+                Console.WriteLine("bucket2 = {1}");
+                Console.WriteLine("bucket3 = {3}");
+
+                Console.WriteLine("A player Pick bucket");
+                no_buc = int.Parse(Console.ReadLine());
+                switch ("nobuc");
+
+                
+                    case1:
+                Console.Write("Pick number of box foe remove");
+                remo_box = int.Parse(Console.ReadLine());
+                if ((remo_box == 1 && remo_box == 3)) ;
+                {
+                    box1 = box1 - remo_box;
+                }
+                break;
+
+            case2:
+                Console.Write("Pick number of box for remove");
+                remo_box = int.Parse(Console.ReadLine());
+                if ((remo_box == 1 && remo_box == 3)) ;
+                {
+                    box2 = box2 - remo_box;
+                }
+                break;
+
+            case3:
+                Console.Write("Pick number of box for remove");
+                remo_box = int.Parse(Console.ReadLine());
+                if ((remo_box == 1 && remo_box == 3)) ;
+                {
+                    box3 = box3 - remo_box;
+                }
+                break;
+            
+                if (box1 == 0 && box2 == 0 && box3 == 0) ;
+            {
+                    Console.ReadLine("B is the winner");
+            
+
+                else
+            {
+                Console.WriteLine("B player round");
+                Console.WriteLine("bucket1 = {0},");
+                Console.WriteLine("bucket2 = {1}");
+                Console.WriteLine("bucket3 = {2}");
+
+                Console.WriteLine("B player Pick bucket");
+                no_buc = int.Parse(Console.ReadLine());
+                switch ("nobuc")
+                
+                    case1:
+                Console.Write("Pick number of box foe remove");
+                remo_box = int.Parse(Console.ReadLine());
+                if ((remo_box == 1 && remo_box == 3)) ;
+                {
+                    box1 = box1 - remo_box;
+                }
+                break;
+
+            case2:
+                Console.Write("Pick number of box for remove");
+                remo_box = int.Parse(Console.ReadLine());
+                if ((remo_box == 1 && remo_box == 3)) ;
+                {
+                    box2 = box2 - remo_box;
+                }
+                break;
+
+            case3:
+                Console.Write("Pick number of box for remove");
+                remo_box = int.Parse(Console.ReadLine());
+                if ((remo_box == 1 && remo_box == 3)) ;
+                {
+                    box3 = box3 - remo_box;
+                }
+                break;
+
+            }
+
+            if
+                (box1 == 0) ;
+            (box2 == 0);
+            (box3 == 0);
+            {
+                Console.WriteLine("A is winner");
+            }
+        }
+    } while(box1 != 0 && box2 != 0 && box3 != 0);
+            console.ReadLine();
+
+            
+
+
+
+
+            }
+            }
+
+
+
+
+        
+    
+
